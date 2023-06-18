@@ -64,3 +64,7 @@ map <leader>l :set list!<CR> " Toggle tabs and EOL
 
 " Remap Esc key.
 :imap jj <Esc>
+
+" Insert an empty new line without entering insert mode
+    nnoremap <Leader>o o<Esc>
+    nnoremap <Leader>O O<Esc>
